@@ -1,0 +1,22 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Secrets & deps — never commit these
+.env
+.env.local
+node_modules/
+.vercel/
+
+# Wisp build/preview artifacts (not part of the app)
+screenshots/
+_ds_manifest.json
+scraps/
+.vercel
+.env*
+
+# ...but the placeholder template is meant to be shared
+!.env.example
